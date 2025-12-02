@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF5177C92EAF8FA30018021D /* OvvioVPNApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177C82EAF8FA30018021D /* OvvioVPNApp.swift */; };
+		DF5177CB2EAF8FA30018021D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177CA2EAF8FA30018021D /* ContentView.swift */; };
+		DF5177CD2EAF8FA60018021D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5177CC2EAF8FA60018021D /* Assets.xcassets */; };
+		DF5177D02EAF8FA60018021D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5177CF2EAF8FA60018021D /* Preview Assets.xcassets */; };
+		DF5177DC2EAF95BF0018021D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177DB2EAF95BF0018021D /* Extensions.swift */; };
+		DF5177DE2EAF962A0018021D /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5177DD2EAF962A0018021D /* Poppins-Regular.ttf */; };
+		DF5177E02EAF96360018021D /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5177DF2EAF96360018021D /* Poppins-Bold.ttf */; };
+		DF5177E32EAF96730018021D /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5177E22EAF96730018021D /* Poppins-Medium.ttf */; };
+		DF5177E52EAF97090018021D /* UserConsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177E42EAF97090018021D /* UserConsentView.swift */; };
+		DF5177E72EAF976A0018021D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177E62EAF976A0018021D /* SplashView.swift */; };
+		DF5177E92EAF995C0018021D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177E82EAF995C0018021D /* OnboardingView.swift */; };
+		DF5177EB2EAF99670018021D /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177EA2EAF99670018021D /* MainAppView.swift */; };
+		DF5177ED2EAF9A960018021D /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177EC2EAF9A960018021D /* OnboardingModel.swift */; };
+		DF5177F02EAF9AD00018021D /* OboardingComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177EF2EAF9AD00018021D /* OboardingComp.swift */; };
+		DF5177F22EAF9D0E0018021D /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177F12EAF9D0E0018021D /* AppStateManager.swift */; };
+		DF5177F42EAF9DF20018021D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177F32EAF9DF20018021D /* LoginView.swift */; };
+		DF5177F62EAFA25C0018021D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177F52EAFA25C0018021D /* LoginViewModel.swift */; };
+		DF5177F82EAFA2970018021D /* LoginComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177F72EAFA2970018021D /* LoginComp.swift */; };
+		DF5177FA2EAFA7DD0018021D /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177F92EAFA7DD0018021D /* SignUpViewModel.swift */; };
+		DF5177FC2EAFA8560018021D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177FB2EAFA8560018021D /* SignUpView.swift */; };
+		DF5177FE2EAFABCB0018021D /* ForgotPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177FD2EAFABCB0018021D /* ForgotPassView.swift */; };
+		DF5178002EAFAD340018021D /* ForgotPassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5177FF2EAFAD340018021D /* ForgotPassViewModel.swift */; };
+		DF5178032EB09E6A0018021D /* ConnectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178022EB09E6A0018021D /* ConnectionModel.swift */; };
+		DF5178052EB09E8D0018021D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178042EB09E8D0018021D /* HomeViewModel.swift */; };
+		DF5178072EB09EE20018021D /* MainComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178062EB09EE20018021D /* MainComp.swift */; };
+		DF51780B2EB0A8F20018021D /* Orbitron-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF51780A2EB0A8F20018021D /* Orbitron-Variable.ttf */; };
+		DF5178172EB0BD360018021D /* AccountComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178162EB0BD360018021D /* AccountComp.swift */; };
+		DF5178192EB0BDAB0018021D /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178182EB0BDAB0018021D /* AccountView.swift */; };
+		DF51781B2EB0C0020018021D /* SettingsComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51781A2EB0C0020018021D /* SettingsComp.swift */; };
+		DF51781D2EB0C02F0018021D /* SecuritySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51781C2EB0C02F0018021D /* SecuritySettingsView.swift */; };
+		DF5178202EB0CCA00018021D /* ProtocolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51781F2EB0CCA00018021D /* ProtocolModel.swift */; };
+		DF5178222EB0CD0E0018021D /* ProtocolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178212EB0CD0E0018021D /* ProtocolViewModel.swift */; };
+		DF5178242EB0CE570018021D /* ProtocolComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178232EB0CE570018021D /* ProtocolComp.swift */; };
+		DF5178262EB0D1940018021D /* SelectedProtocolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178252EB0D1940018021D /* SelectedProtocolView.swift */; };
+		DF5178282EB0D33C0018021D /* FeedbackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178272EB0D33C0018021D /* FeedbackViewModel.swift */; };
+		DF51782A2EB0D3620018021D /* FeedbackComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178292EB0D3620018021D /* FeedbackComp.swift */; };
+		DF51782C2EB0D3C10018021D /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51782B2EB0D3C10018021D /* FeedbackView.swift */; };
+		DF51782E2EB0D4B20018021D /* PremiumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51782D2EB0D4B20018021D /* PremiumViewModel.swift */; };
+		DF5178302EB0D4C90018021D /* PremiumComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51782F2EB0D4C90018021D /* PremiumComp.swift */; };
+		DF5178322EB0D5360018021D /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178312EB0D5360018021D /* PremiumView.swift */; };
+		DF5178342EB0D9EC0018021D /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178332EB0D9EC0018021D /* SideMenuManager.swift */; };
+		DF5178362EB0DA9E0018021D /* SideMenuComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178352EB0DA9E0018021D /* SideMenuComponents.swift */; };
+		DF5178382EB0DD880018021D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5178372EB0DD880018021D /* HomeView.swift */; };
+		DF51783A2EB1011B0018021D /* WaterShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = DF5178392EB1011B0018021D /* WaterShader.metal */; };
+		DF51783C2EB101B40018021D /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51783B2EB101B40018021D /* AboutUsView.swift */; };
+		DF5178502EB23E8E0018021D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DF51784F2EB23E8E0018021D /* Alamofire */; };
+		DF8DE6582EB33701002AAE21 /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE6572EB33700002AAE21 /* SignupModel.swift */; };
+		DF8DE65A2EB3371B002AAE21 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE6592EB3371B002AAE21 /* CustomAlert.swift */; };
+		DF8DE65F2EB33738002AAE21 /* APIRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE65C2EB33738002AAE21 /* APIRoutes.swift */; };
+		DF8DE6602EB33738002AAE21 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE65D2EB33738002AAE21 /* APIConstants.swift */; };
+		DF8DE6612EB33738002AAE21 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE65E2EB33738002AAE21 /* APIManager.swift */; };
+		DF8DE6632EB48C69002AAE21 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE6622EB48C69002AAE21 /* LoginModel.swift */; };
+		DF8DE6652EB49169002AAE21 /* IPInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE6642EB49169002AAE21 /* IPInfoModel.swift */; };
+		DF8DE6672EB4C39A002AAE21 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE6662EB4C39A002AAE21 /* AccountViewModel.swift */; };
+		DF8DE6692EB4C495002AAE21 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE6682EB4C495002AAE21 /* UserModel.swift */; };
+		DF8DE66B2EB8803F002AAE21 /* ActiveSubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE66A2EB8803F002AAE21 /* ActiveSubModel.swift */; };
+		DF8DE6732EB8A3CE002AAE21 /* ServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE6722EB8A3CE002AAE21 /* ServerView.swift */; };
+		DF8DE6752EB8B361002AAE21 /* ServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE6742EB8B361002AAE21 /* ServerModel.swift */; };
+		DF8DE6772EB8B37A002AAE21 /* ServerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE6762EB8B37A002AAE21 /* ServerViewModel.swift */; };
+		DF8DE6792EB8C77B002AAE21 /* PlansModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE6782EB8C77B002AAE21 /* PlansModel.swift */; };
+		DF8DE67C2EB8D35A002AAE21 /* FeedbackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE67B2EB8D35A002AAE21 /* FeedbackModel.swift */; };
+		DF8DE67F2EB9D6BA002AAE21 /* SwiftyPing in Frameworks */ = {isa = PBXBuildFile; productRef = DF8DE67E2EB9D6BA002AAE21 /* SwiftyPing */; };
+		DF8DE6832EBA13AF002AAE21 /* IKEv2Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE6812EBA13AF002AAE21 /* IKEv2Manager.swift */; };
+		DF8DE6842EBA13AF002AAE21 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DE6822EBA13AF002AAE21 /* KeychainService.swift */; };
+		DFB4E7092EDD792D0056EB6E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFB4E7082EDD792D0056EB6E /* Poppins-SemiBold.ttf */; };
+		DFBE986C2EC36F5D0013D4C3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBE986B2EC36F5D0013D4C3 /* StoreKit.framework */; };
+		DFCE21A52EC1BB7A00968472 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCE21A42EC1BB7A00968472 /* StoreKitManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF5177C52EAF8FA30018021D /* OvvioVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OvvioVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5177C82EAF8FA30018021D /* OvvioVPNApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvvioVPNApp.swift; sourceTree = "<group>"; };
+		DF5177CA2EAF8FA30018021D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF5177CC2EAF8FA60018021D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF5177CF2EAF8FA60018021D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF5177DB2EAF95BF0018021D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DF5177DD2EAF962A0018021D /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		DF5177DF2EAF96360018021D /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		DF5177E12EAF96460018021D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DF5177E22EAF96730018021D /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		DF5177E42EAF97090018021D /* UserConsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserConsentView.swift; sourceTree = "<group>"; };
+		DF5177E62EAF976A0018021D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		DF5177E82EAF995C0018021D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		DF5177EA2EAF99670018021D /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
+		DF5177EC2EAF9A960018021D /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		DF5177EF2EAF9AD00018021D /* OboardingComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OboardingComp.swift; sourceTree = "<group>"; };
+		DF5177F12EAF9D0E0018021D /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
+		DF5177F32EAF9DF20018021D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DF5177F52EAFA25C0018021D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DF5177F72EAFA2970018021D /* LoginComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginComp.swift; sourceTree = "<group>"; };
+		DF5177F92EAFA7DD0018021D /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		DF5177FB2EAFA8560018021D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		DF5177FD2EAFABCB0018021D /* ForgotPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassView.swift; sourceTree = "<group>"; };
+		DF5177FF2EAFAD340018021D /* ForgotPassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassViewModel.swift; sourceTree = "<group>"; };
+		DF5178022EB09E6A0018021D /* ConnectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionModel.swift; sourceTree = "<group>"; };
+		DF5178042EB09E8D0018021D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DF5178062EB09EE20018021D /* MainComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainComp.swift; sourceTree = "<group>"; };
+		DF51780A2EB0A8F20018021D /* Orbitron-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Variable.ttf"; sourceTree = "<group>"; };
+		DF5178162EB0BD360018021D /* AccountComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountComp.swift; sourceTree = "<group>"; };
+		DF5178182EB0BDAB0018021D /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		DF51781A2EB0C0020018021D /* SettingsComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsComp.swift; sourceTree = "<group>"; };
+		DF51781C2EB0C02F0018021D /* SecuritySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuritySettingsView.swift; sourceTree = "<group>"; };
+		DF51781F2EB0CCA00018021D /* ProtocolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolModel.swift; sourceTree = "<group>"; };
+		DF5178212EB0CD0E0018021D /* ProtocolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewModel.swift; sourceTree = "<group>"; };
+		DF5178232EB0CE570018021D /* ProtocolComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolComp.swift; sourceTree = "<group>"; };
+		DF5178252EB0D1940018021D /* SelectedProtocolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedProtocolView.swift; sourceTree = "<group>"; };
+		DF5178272EB0D33C0018021D /* FeedbackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewModel.swift; sourceTree = "<group>"; };
+		DF5178292EB0D3620018021D /* FeedbackComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackComp.swift; sourceTree = "<group>"; };
+		DF51782B2EB0D3C10018021D /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		DF51782D2EB0D4B20018021D /* PremiumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumViewModel.swift; sourceTree = "<group>"; };
+		DF51782F2EB0D4C90018021D /* PremiumComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumComp.swift; sourceTree = "<group>"; };
+		DF5178312EB0D5360018021D /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
+		DF5178332EB0D9EC0018021D /* SideMenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuManager.swift; sourceTree = "<group>"; };
+		DF5178352EB0DA9E0018021D /* SideMenuComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuComponents.swift; sourceTree = "<group>"; };
+		DF5178372EB0DD880018021D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DF5178392EB1011B0018021D /* WaterShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = WaterShader.metal; sourceTree = "<group>"; };
+		DF51783B2EB101B40018021D /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
+		DF8DE6572EB33700002AAE21 /* SignupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
+		DF8DE6592EB3371B002AAE21 /* CustomAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		DF8DE65C2EB33738002AAE21 /* APIRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRoutes.swift; sourceTree = "<group>"; };
+		DF8DE65D2EB33738002AAE21 /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		DF8DE65E2EB33738002AAE21 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		DF8DE6622EB48C69002AAE21 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		DF8DE6642EB49169002AAE21 /* IPInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPInfoModel.swift; sourceTree = "<group>"; };
+		DF8DE6662EB4C39A002AAE21 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		DF8DE6682EB4C495002AAE21 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DF8DE66A2EB8803F002AAE21 /* ActiveSubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSubModel.swift; sourceTree = "<group>"; };
+		DF8DE6722EB8A3CE002AAE21 /* ServerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerView.swift; sourceTree = "<group>"; };
+		DF8DE6742EB8B361002AAE21 /* ServerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerModel.swift; sourceTree = "<group>"; };
+		DF8DE6762EB8B37A002AAE21 /* ServerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerViewModel.swift; sourceTree = "<group>"; };
+		DF8DE6782EB8C77B002AAE21 /* PlansModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansModel.swift; sourceTree = "<group>"; };
+		DF8DE67B2EB8D35A002AAE21 /* FeedbackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackModel.swift; sourceTree = "<group>"; };
+		DF8DE6812EBA13AF002AAE21 /* IKEv2Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IKEv2Manager.swift; sourceTree = "<group>"; };
+		DF8DE6822EBA13AF002AAE21 /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		DF8DE6852EBA13E8002AAE21 /* OvvioVPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OvvioVPN.entitlements; sourceTree = "<group>"; };
+		DFB4E7082EDD792D0056EB6E /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		DFBE986B2EC36F5D0013D4C3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DFCE21A42EC1BB7A00968472 /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF5177C22EAF8FA30018021D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBE986C2EC36F5D0013D4C3 /* StoreKit.framework in Frameworks */,
+				DF8DE67F2EB9D6BA002AAE21 /* SwiftyPing in Frameworks */,
+				DF5178502EB23E8E0018021D /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF5177BC2EAF8FA30018021D = {
+			isa = PBXGroup;
+			children = (
+				DF5177C72EAF8FA30018021D /* OvvioVPN */,
+				DF5177C62EAF8FA30018021D /* Products */,
+				DFBE986A2EC36F5D0013D4C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF5177C62EAF8FA30018021D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5177C52EAF8FA30018021D /* OvvioVPN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5177C72EAF8FA30018021D /* OvvioVPN */ = {
+			isa = PBXGroup;
+			children = (
+				DF8DE6852EBA13E8002AAE21 /* OvvioVPN.entitlements */,
+				DF5177E12EAF96460018021D /* Info.plist */,
+				DF5177C82EAF8FA30018021D /* OvvioVPNApp.swift */,
+				DF5177CA2EAF8FA30018021D /* ContentView.swift */,
+				DF5177D62EAF955D0018021D /* Managers */,
+				DF5177D92EAF95810018021D /* View */,
+				DF5177D82EAF95770018021D /* ViewModel */,
+				DF5177D72EAF956B0018021D /* Model */,
+				DF5177DA2EAF95900018021D /* Ext+Utils */,
+				DF5177CC2EAF8FA60018021D /* Assets.xcassets */,
+				DF5177CE2EAF8FA60018021D /* Preview Content */,
+			);
+			path = OvvioVPN;
+			sourceTree = "<group>";
+		};
+		DF5177CE2EAF8FA60018021D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF5177CF2EAF8FA60018021D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF5177D62EAF955D0018021D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DF8DE6802EBA13AF002AAE21 /* IKEv2Manager */,
+				DF8DE65B2EB33738002AAE21 /* APIManagers */,
+				DFCE21A32EC1BB5600968472 /* StoreKitManager */,
+				DF5177F12EAF9D0E0018021D /* AppStateManager.swift */,
+				DF5178332EB0D9EC0018021D /* SideMenuManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DF5177D72EAF956B0018021D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF8DE6562EB33700002AAE21 /* APIDataModel */,
+				DF5177EC2EAF9A960018021D /* OnboardingModel.swift */,
+				DF5178022EB09E6A0018021D /* ConnectionModel.swift */,
+				DF8DE6742EB8B361002AAE21 /* ServerModel.swift */,
+				DF51781F2EB0CCA00018021D /* ProtocolModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF5177D82EAF95770018021D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF5177F92EAFA7DD0018021D /* SignUpViewModel.swift */,
+				DF5177F52EAFA25C0018021D /* LoginViewModel.swift */,
+				DF8DE6762EB8B37A002AAE21 /* ServerViewModel.swift */,
+				DF5177FF2EAFAD340018021D /* ForgotPassViewModel.swift */,
+				DF5178042EB09E8D0018021D /* HomeViewModel.swift */,
+				DF8DE6662EB4C39A002AAE21 /* AccountViewModel.swift */,
+				DF5178212EB0CD0E0018021D /* ProtocolViewModel.swift */,
+				DF5178272EB0D33C0018021D /* FeedbackViewModel.swift */,
+				DF51782D2EB0D4B20018021D /* PremiumViewModel.swift */,
+				DF5178392EB1011B0018021D /* WaterShader.metal */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF5177D92EAF95810018021D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF5177EA2EAF99670018021D /* MainAppView.swift */,
+				DF5178372EB0DD880018021D /* HomeView.swift */,
+				DF5178132EB0B20B0018021D /* SideMenuScreens */,
+				DF5178012EAFAF210018021D /* Intro */,
+				DF5178122EB0B1D10018021D /* Auth */,
+				DF5177EE2EAF9AAE0018021D /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF5177DA2EAF95900018021D /* Ext+Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DF5177E22EAF96730018021D /* Poppins-Medium.ttf */,
+				DFB4E7082EDD792D0056EB6E /* Poppins-SemiBold.ttf */,
+				DF5177DF2EAF96360018021D /* Poppins-Bold.ttf */,
+				DF51780A2EB0A8F20018021D /* Orbitron-Variable.ttf */,
+				DF5177DD2EAF962A0018021D /* Poppins-Regular.ttf */,
+				DF5177DB2EAF95BF0018021D /* Extensions.swift */,
+			);
+			path = "Ext+Utils";
+			sourceTree = "<group>";
+		};
+		DF5177EE2EAF9AAE0018021D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DF8DE6592EB3371B002AAE21 /* CustomAlert.swift */,
+				DF5177EF2EAF9AD00018021D /* OboardingComp.swift */,
+				DF5177F72EAFA2970018021D /* LoginComp.swift */,
+				DF5178062EB09EE20018021D /* MainComp.swift */,
+				DF51782F2EB0D4C90018021D /* PremiumComp.swift */,
+				DF5178162EB0BD360018021D /* AccountComp.swift */,
+				DF51781A2EB0C0020018021D /* SettingsComp.swift */,
+				DF5178232EB0CE570018021D /* ProtocolComp.swift */,
+				DF5178292EB0D3620018021D /* FeedbackComp.swift */,
+				DF5178352EB0DA9E0018021D /* SideMenuComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DF5178012EAFAF210018021D /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				DF5177E82EAF995C0018021D /* OnboardingView.swift */,
+				DF5177E42EAF97090018021D /* UserConsentView.swift */,
+				DF5177E62EAF976A0018021D /* SplashView.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		DF5178122EB0B1D10018021D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				DF5177F32EAF9DF20018021D /* LoginView.swift */,
+				DF5177FB2EAFA8560018021D /* SignUpView.swift */,
+				DF5177FD2EAFABCB0018021D /* ForgotPassView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		DF5178132EB0B20B0018021D /* SideMenuScreens */ = {
+			isa = PBXGroup;
+			children = (
+				DF5178182EB0BDAB0018021D /* AccountView.swift */,
+				DF51781C2EB0C02F0018021D /* SecuritySettingsView.swift */,
+				DF5178252EB0D1940018021D /* SelectedProtocolView.swift */,
+				DF5178312EB0D5360018021D /* PremiumView.swift */,
+				DF8DE6722EB8A3CE002AAE21 /* ServerView.swift */,
+				DF51783B2EB101B40018021D /* AboutUsView.swift */,
+				DF51782B2EB0D3C10018021D /* FeedbackView.swift */,
+			);
+			path = SideMenuScreens;
+			sourceTree = "<group>";
+		};
+		DF8DE6562EB33700002AAE21 /* APIDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF8DE6572EB33700002AAE21 /* SignupModel.swift */,
+				DF8DE6642EB49169002AAE21 /* IPInfoModel.swift */,
+				DF8DE6622EB48C69002AAE21 /* LoginModel.swift */,
+				DF8DE6682EB4C495002AAE21 /* UserModel.swift */,
+				DF8DE67B2EB8D35A002AAE21 /* FeedbackModel.swift */,
+				DF8DE66A2EB8803F002AAE21 /* ActiveSubModel.swift */,
+				DF8DE6782EB8C77B002AAE21 /* PlansModel.swift */,
+			);
+			path = APIDataModel;
+			sourceTree = "<group>";
+		};
+		DF8DE65B2EB33738002AAE21 /* APIManagers */ = {
+			isa = PBXGroup;
+			children = (
+				DF8DE65C2EB33738002AAE21 /* APIRoutes.swift */,
+				DF8DE65D2EB33738002AAE21 /* APIConstants.swift */,
+				DF8DE65E2EB33738002AAE21 /* APIManager.swift */,
+			);
+			path = APIManagers;
+			sourceTree = "<group>";
+		};
+		DF8DE6802EBA13AF002AAE21 /* IKEv2Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DF8DE6812EBA13AF002AAE21 /* IKEv2Manager.swift */,
+				DF8DE6822EBA13AF002AAE21 /* KeychainService.swift */,
+			);
+			path = IKEv2Manager;
+			sourceTree = "<group>";
+		};
+		DFBE986A2EC36F5D0013D4C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFBE986B2EC36F5D0013D4C3 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFCE21A32EC1BB5600968472 /* StoreKitManager */ = {
+			isa = PBXGroup;
+			children = (
+				DFCE21A42EC1BB7A00968472 /* StoreKitManager.swift */,
+			);
+			path = StoreKitManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF5177C42EAF8FA30018021D /* OvvioVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5177D32EAF8FA60018021D /* Build configuration list for PBXNativeTarget "OvvioVPN" */;
+			buildPhases = (
+				DF5177C12EAF8FA30018021D /* Sources */,
+				DF5177C22EAF8FA30018021D /* Frameworks */,
+				DF5177C32EAF8FA30018021D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OvvioVPN;
+			packageProductDependencies = (
+				DF51784F2EB23E8E0018021D /* Alamofire */,
+				DF8DE67E2EB9D6BA002AAE21 /* SwiftyPing */,
+			);
+			productName = OvvioVPN;
+			productReference = DF5177C52EAF8FA30018021D /* OvvioVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF5177BD2EAF8FA30018021D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DF5177C42EAF8FA30018021D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = DF5177C02EAF8FA30018021D /* Build configuration list for PBXProject "OvvioVPN" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF5177BC2EAF8FA30018021D;
+			packageReferences = (
+				DF51784E2EB23E8E0018021D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DF8DE67D2EB9D6BA002AAE21 /* XCRemoteSwiftPackageReference "SwiftyPing" */,
+			);
+			productRefGroup = DF5177C62EAF8FA30018021D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5177C42EAF8FA30018021D /* OvvioVPN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF5177C32EAF8FA30018021D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5177DE2EAF962A0018021D /* Poppins-Regular.ttf in Resources */,
+				DFB4E7092EDD792D0056EB6E /* Poppins-SemiBold.ttf in Resources */,
+				DF5177D02EAF8FA60018021D /* Preview Assets.xcassets in Resources */,
+				DF51780B2EB0A8F20018021D /* Orbitron-Variable.ttf in Resources */,
+				DF5177CD2EAF8FA60018021D /* Assets.xcassets in Resources */,
+				DF5177E02EAF96360018021D /* Poppins-Bold.ttf in Resources */,
+				DF5177E32EAF96730018021D /* Poppins-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF5177C12EAF8FA30018021D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8DE6612EB33738002AAE21 /* APIManager.swift in Sources */,
+				DF5177CB2EAF8FA30018021D /* ContentView.swift in Sources */,
+				DF5177FC2EAFA8560018021D /* SignUpView.swift in Sources */,
+				DF5177FE2EAFABCB0018021D /* ForgotPassView.swift in Sources */,
+				DF5178242EB0CE570018021D /* ProtocolComp.swift in Sources */,
+				DF5178342EB0D9EC0018021D /* SideMenuManager.swift in Sources */,
+				DF51782E2EB0D4B20018021D /* PremiumViewModel.swift in Sources */,
+				DF5178202EB0CCA00018021D /* ProtocolModel.swift in Sources */,
+				DF5178282EB0D33C0018021D /* FeedbackViewModel.swift in Sources */,
+				DF5178002EAFAD340018021D /* ForgotPassViewModel.swift in Sources */,
+				DF5177E52EAF97090018021D /* UserConsentView.swift in Sources */,
+				DF51781D2EB0C02F0018021D /* SecuritySettingsView.swift in Sources */,
+				DF8DE6752EB8B361002AAE21 /* ServerModel.swift in Sources */,
+				DF5177EB2EAF99670018021D /* MainAppView.swift in Sources */,
+				DF8DE6792EB8C77B002AAE21 /* PlansModel.swift in Sources */,
+				DFCE21A52EC1BB7A00968472 /* StoreKitManager.swift in Sources */,
+				DF5178382EB0DD880018021D /* HomeView.swift in Sources */,
+				DF5178302EB0D4C90018021D /* PremiumComp.swift in Sources */,
+				DF5178322EB0D5360018021D /* PremiumView.swift in Sources */,
+				DF8DE67C2EB8D35A002AAE21 /* FeedbackModel.swift in Sources */,
+				DF5177DC2EAF95BF0018021D /* Extensions.swift in Sources */,
+				DF8DE6732EB8A3CE002AAE21 /* ServerView.swift in Sources */,
+				DF8DE6602EB33738002AAE21 /* APIConstants.swift in Sources */,
+				DF8DE6692EB4C495002AAE21 /* UserModel.swift in Sources */,
+				DF5177ED2EAF9A960018021D /* OnboardingModel.swift in Sources */,
+				DF5178262EB0D1940018021D /* SelectedProtocolView.swift in Sources */,
+				DF5177F82EAFA2970018021D /* LoginComp.swift in Sources */,
+				DF5177FA2EAFA7DD0018021D /* SignUpViewModel.swift in Sources */,
+				DF5177E92EAF995C0018021D /* OnboardingView.swift in Sources */,
+				DF5177C92EAF8FA30018021D /* OvvioVPNApp.swift in Sources */,
+				DF8DE6772EB8B37A002AAE21 /* ServerViewModel.swift in Sources */,
+				DF5178172EB0BD360018021D /* AccountComp.swift in Sources */,
+				DF5177E72EAF976A0018021D /* SplashView.swift in Sources */,
+				DF8DE65F2EB33738002AAE21 /* APIRoutes.swift in Sources */,
+				DF8DE6632EB48C69002AAE21 /* LoginModel.swift in Sources */,
+				DF51782C2EB0D3C10018021D /* FeedbackView.swift in Sources */,
+				DF5178052EB09E8D0018021D /* HomeViewModel.swift in Sources */,
+				DF5178032EB09E6A0018021D /* ConnectionModel.swift in Sources */,
+				DF5177F62EAFA25C0018021D /* LoginViewModel.swift in Sources */,
+				DF8DE6832EBA13AF002AAE21 /* IKEv2Manager.swift in Sources */,
+				DF5177F42EAF9DF20018021D /* LoginView.swift in Sources */,
+				DF5177F02EAF9AD00018021D /* OboardingComp.swift in Sources */,
+				DF51781B2EB0C0020018021D /* SettingsComp.swift in Sources */,
+				DF5178222EB0CD0E0018021D /* ProtocolViewModel.swift in Sources */,
+				DF5178362EB0DA9E0018021D /* SideMenuComponents.swift in Sources */,
+				DF5178072EB09EE20018021D /* MainComp.swift in Sources */,
+				DF8DE6652EB49169002AAE21 /* IPInfoModel.swift in Sources */,
+				DF51783A2EB1011B0018021D /* WaterShader.metal in Sources */,
+				DF8DE65A2EB3371B002AAE21 /* CustomAlert.swift in Sources */,
+				DF5178192EB0BDAB0018021D /* AccountView.swift in Sources */,
+				DF51783C2EB101B40018021D /* AboutUsView.swift in Sources */,
+				DF5177F22EAF9D0E0018021D /* AppStateManager.swift in Sources */,
+				DF8DE66B2EB8803F002AAE21 /* ActiveSubModel.swift in Sources */,
+				DF51782A2EB0D3620018021D /* FeedbackComp.swift in Sources */,
+				DF8DE6842EBA13AF002AAE21 /* KeychainService.swift in Sources */,
+				DF8DE6672EB4C39A002AAE21 /* AccountViewModel.swift in Sources */,
+				DF8DE6582EB33701002AAE21 /* SignupModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF5177D12EAF8FA60018021D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF5177D22EAF8FA60018021D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF5177D42EAF8FA60018021D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OvvioVPN/OvvioVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OvvioVPN/Preview Content\"";
+				DEVELOPMENT_TEAM = 48NNYV7B53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OvvioVPN/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ovviovpn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF5177D52EAF8FA60018021D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OvvioVPN/OvvioVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OvvioVPN/Preview Content\"";
+				DEVELOPMENT_TEAM = 48NNYV7B53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OvvioVPN/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ovviovpn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF5177C02EAF8FA30018021D /* Build configuration list for PBXProject "OvvioVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5177D12EAF8FA60018021D /* Debug */,
+				DF5177D22EAF8FA60018021D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5177D32EAF8FA60018021D /* Build configuration list for PBXNativeTarget "OvvioVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5177D42EAF8FA60018021D /* Debug */,
+				DF5177D52EAF8FA60018021D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF51784E2EB23E8E0018021D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		DF8DE67D2EB9D6BA002AAE21 /* XCRemoteSwiftPackageReference "SwiftyPing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/samiyr/SwiftyPing";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF51784F2EB23E8E0018021D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF51784E2EB23E8E0018021D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		DF8DE67E2EB9D6BA002AAE21 /* SwiftyPing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF8DE67D2EB9D6BA002AAE21 /* XCRemoteSwiftPackageReference "SwiftyPing" */;
+			productName = SwiftyPing;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DF5177BD2EAF8FA30018021D /* Project object */;
+}

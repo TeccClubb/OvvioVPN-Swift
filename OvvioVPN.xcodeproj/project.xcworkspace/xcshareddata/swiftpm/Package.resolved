@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
+        "version" : "5.10.2"
+      }
+    },
+    {
+      "identity" : "swiftyping",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/samiyr/SwiftyPing",
+      "state" : {
+        "branch" : "master",
+        "revision" : "05591bc0047e41e0e1d98135c6bc457192a72d39"
+      }
+    }
+  ],
+  "version" : 2
+}
