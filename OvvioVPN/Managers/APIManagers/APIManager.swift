@@ -14,12 +14,12 @@ class APIManager {
             .responseData { response in
                 
                //  Print response for debugging
-//                #if DEBUG
-//                if let data = response.data {
-//                    print("📦 API Response:", String(data: data, encoding: .utf8) ?? "nil")
-//                }
-//                print("🌐 Status Code:", response.response?.statusCode ?? 0)
-//                #endif
+                #if DEBUG
+                if let data = response.data {
+                    print("📦 API Response:", String(data: data, encoding: .utf8) ?? "nil")
+                }
+                print("🌐 Status Code:", response.response?.statusCode ?? 0)
+                #endif
                 
                 // Always pass response.data back, whether success or failure
                 let responseData = response.data

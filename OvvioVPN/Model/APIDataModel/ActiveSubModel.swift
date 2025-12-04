@@ -58,7 +58,8 @@ struct ActivePlan: Codable {
     let invoicePeriod: Int
     let invoiceInterval: String
     let trialPeriod: Int
-    let trialInterval, paddlePriceID, appstoreProductID: String
+    let trialInterval, paddlePriceID: String
+    let appstoreProductID: String?   // <- FIXED HERE
     let isActive, isBestDeal: Bool
     let createdAt: String
 
@@ -77,3 +78,4 @@ struct ActivePlan: Codable {
         case createdAt = "created_at"
     }
 }
+
