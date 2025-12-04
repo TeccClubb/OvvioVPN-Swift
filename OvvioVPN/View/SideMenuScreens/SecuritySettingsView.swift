@@ -15,7 +15,7 @@ struct SecuritySettingsView: View {
 //    @State private var isAutoConnectOn = true
 //    @State private var isKillSwitchOn = true
     // State for selected protocol (replace with actual logic)
-    @State private var selectedProtocol = "Vless"
+    @State private var selectedProtocol = "Ikev2"
 
     var body: some View {
         VStack(spacing: 0) { // Main VStack, control spacing with padding
@@ -40,9 +40,11 @@ struct SecuritySettingsView: View {
 
                     // --- Connection Protocol ---
                     // Wrap in NavigationLink
-                    NavigationLink {
+                    
+                    // use Navigation Link when Protocol are availabe
+                    Button {
                          // Destination view (e.g., SelectProtocolView)
-                         SelectProtocolView() // Ensure this view exists
+                         print("Protocol selection view") // Ensure this view exists
                     } label: {
                          SettingsRowView(
                              iconName: "shield.lefthalf.filled", // Example icon
